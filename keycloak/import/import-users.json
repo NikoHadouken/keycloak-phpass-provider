@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "createdTimestamp": 1477737288000,
+            "username": "john",
+            "enabled": true,
+            "emailVerified": false,
+            "firstName": "John",
+            "lastName": "Doe",
+            "email": "john.doe@example.com",
+            "credentials": [
+                {
+                    "type": "password",
+                    "userLabel": "User password",
+                    "secretData": "{\"value\":\"$P$BExdFlzkPLj4/RQKomdeBT4a5IOrtm1\",\"salt\":\"\",\"additionalParameters\":{}}",
+                    "credentialData": "{\"hashIterations\":8,\"algorithm\":\"phpass\",\"additionalParameters\":{}}"
+                }
+            ],
+            "requiredActions": [
+                "UPDATE_PASSWORD"
+            ]
+        }
+    ]
+}
