@@ -30,6 +30,9 @@ mvn test
 - restart keycloak container and it will install provider on startup
 - import example data via partial import feature
 - test login on http://localhost:8080/realms/master/account/
+  with the example user:
+    username: john
+    password: pa$$w0rd
 
 ## Links
 
